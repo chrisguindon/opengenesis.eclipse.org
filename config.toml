@@ -1,0 +1,49 @@
+baseurl = "https://opengenesis.eclipse.org/"
+DefaultContentLanguage = "en"
+title = "openGENESIS"
+theme = "eclipsefdn-hugo-solstice-theme"
+metaDataFormat = "yaml"
+googleAnalytics = "UA-910670-30"
+disableKinds = []
+themesDir = "node_modules/"
+enableRobotsTXT = true
+
+[Params]
+  google_tag_manager = "GTM-5WLCZXC"
+  description = "The mission of the openGENESIS Working Group is to provide methods and tools for the assessment of artificial intelligence (AI) used for autonomous driving."
+  seo_title_suffix = " | The Eclipse Foundation"
+  keywords = ["opengenesis", "eclipse working groups"]
+#  logo = "images/opengenesis/logo.png"
+  styles = "css/styles.css"
+#  favicon = "images/opengenesis/favicon.ico"
+  share_img = "images/opengenesis/logo.png"
+  gcse = "011805775785170369411:p3ec0igo0qq"
+  js = "js/solstice.js"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  membership_level = "membership_levels"
+  participation_level = "participation_levels"
+
+[Author]
+  name = "Christopher Guindon"
+  website = "https://www.eclipse.org"
+  email = "webdev@eclipse-foundation.org"
+  facebook = "eclipse.org"
+  twitter = "EclipseFdn"
+  youtube = "EclipseFdn"
+  googleplus = "+Eclipse"
+  linkedin = "company/eclipse-foundation/"
+
+[permalinks]
+  news = "/:sections/:year/:month/:day/:slug/"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = "2"
